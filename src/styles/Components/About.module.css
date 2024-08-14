@@ -1,0 +1,112 @@
+/* styles/About.module.css */
+.about {
+  background-color: #fff;
+  color: #000;
+  position: absolute;
+  width: 1470px;
+  height: 675px;
+  top: 1004px;
+  left: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.skills {
+  position: absolute;
+  width: 753px;
+  height: 349px;
+  top: 284px;
+  opacity: 0px;
+
+}
+
+.skills label {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.progressConatiner{
+  height:32px;
+  align-items: center;
+  display: flex;
+  
+}
+
+.progressBar {
+  background-color: #e0e0e0;
+  height: 12px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.progress {
+  background-color: #ff6600;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.circle{
+  height: 32px;
+  width: 32px;
+  background-color: #edecec;
+  border-radius: 50%;
+  border:5px solid #ff6600;
+  /* box-shadow: 4px rgba(0, 0, 0, 1 ); */
+}
+
+.AboutImg {
+  width: 680.76px;
+  height: 675.12px;
+
+}
+
+.rect {
+  width: 374px;
+  height: 83px;
+  top: 111px;
+  left: 153px;
+  gap: 0px;
+  opacity: 60%;
+  position: absolute;
+  background-color: #ff6600;
+}
+
+.leftside {
+  position: absolute;
+  width: 680.76px;
+  height: 675.12px;
+
+}
+
+.rightside {
+  position: absolute;
+  left: 714px;
+  row-gap: 15px;
+}
+
+.rightside h2 {
+  position: absolute;
+  width: 330px;
+  height: 98px;
+  top: 5px;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  
+}
+
+.rightside p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  width: 756px;
+  height: 101px;
+  top: 168px;
+  position: absolute;
+}

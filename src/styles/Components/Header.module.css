@@ -1,0 +1,65 @@
+/* styles/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: absolute; 
+    width: 1420px; 
+    height: 67px; 
+  }
+  
+  .logo {
+    font-size: 48px;
+    width:279px;
+    color: #000;
+    display: flex;
+  }
+
+  .logoimg{
+    width: 67px;
+    height: 67px;
+    padding-right: 14px;
+    padding-top: 2px;
+  }
+
+  .logoname{
+    font-weight: 700;
+  }
+  
+  .logoname span{
+    font-weight: 400;
+    color: grey;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    width: 807px;
+  }
+  .nav ul li{
+    
+    font-size: 21px;
+    
+  }
+  .nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 14px;
+    
+  }
+  
+  .downloadCv {
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 21px;
+    width: 188px;
+    height: 52px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
