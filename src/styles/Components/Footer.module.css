@@ -1,0 +1,130 @@
+/* styles/Footer.module.css */
+.footer {
+  background-color: #f8f8f8;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 1925px;
+  height: 552px;
+  top: 5048px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  overflow: hidden;
+}
+
+.logoimg {
+  width: 67px;
+  height: 67px;
+  padding-right: 14px;
+  padding-top: 2px;
+}
+
+.logoname {
+  font-weight: 700;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.51px;
+  text-align: left;
+}
+
+.logoname span {
+  font-weight: 400;
+  color: #1e1e1e;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58.51px;
+  text-align: left;
+}
+
+.logo {
+  position: absolute;
+  width: 279px;
+  height: 67px;
+  top: 109px;
+  left: 820px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+
+.logoname {
+  position: absolute;
+  width: 190px;
+  height: 59px;
+  top: 4px;
+  left: 87px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.buttonholder {
+  position: absolute;
+  width: 807px;
+  height: 52px;
+  top: 241px;
+  left: 556px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 10px 14px 10px 14px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.icons {
+  position: absolute;
+  width: 205px;
+  height: 32.48px;
+  top: 373.52px;
+  left: 857px;
+  padding: 0px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerbottom {
+  position: absolute;
+  width: 1921px;
+  height: 84px;
+  top: 468px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #545454;
+}
+
+.footerbottom .text {
+  position: absolute;
+  width: 440px;
+  height: 32px;
+  top: 26px;
+  left: 740px;
+  color: white;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.text span {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ff6600;
+}

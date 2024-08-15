@@ -1,0 +1,109 @@
+/* styles/Projects.module.css */
+.projects {
+  position: absolute;
+  width: 1423px;
+  height: 1020px;
+  top: 2541px;
+  left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  width: 400px;
+  height: 98px;
+  left: 510px;
+  top: 0px;
+  position: absolute;
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 97.5px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+}
+
+.headingtext {
+  position: absolute;
+  width: 921px;
+  height: 78px;
+  top: 120px;
+  left: 249px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 31.5px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+
+}
+
+.buttoncontainer {
+  position: absolute;
+  height: 56px;
+  top: 257px;
+  left: 234px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  border: 0.4px 0px 0px 0px;
+  opacity: 0px;
+
+}
+
+.buttoncontainer button {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: solid #545454;
+  border-width: 0.4px;
+  margin-right: 10px;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+}
+
+.projectCards {
+  width: 100%;
+  position: absolute;
+  height: 601px;
+  left: 0px;
+  top: 419px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectCard {
+  border-radius: 10px;
+  text-align: center;
+  height: 489px;
+  width: 445x;
+}
+
+.projectCard p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  position: absolute;
+  top: 540px;
+}
+
+.projectCard h3 {
+  color: #ff6600;
+  font-family: Poppins;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28.5px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  position: absolute;
+  top: 500px;
+}
